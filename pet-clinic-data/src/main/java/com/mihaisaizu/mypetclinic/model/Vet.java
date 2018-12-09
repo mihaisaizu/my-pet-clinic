@@ -1,4 +1,5 @@
 package com.mihaisaizu.mypetclinic.model;
 
-public class Vet {
+public class Vet extends Person {
+
 }
