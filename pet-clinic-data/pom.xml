@@ -3,7 +3,7 @@
     <parent>
         <artifactId>my-pet-clinic</artifactId>
         <groupId>com.mihaisaizu</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.2</version>
     </parent>
 
     <properties>
