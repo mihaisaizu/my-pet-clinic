@@ -15,7 +15,7 @@
 
     <groupId>com.mihaisaizu</groupId>
     <artifactId>my-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>my-pet-clinic</name>
     <description>My First Pet Clinic App</description>
@@ -42,7 +42,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/mihaisaizu/my-pet-clinic.git</developerConnection>
-      <tag>my-pet-clinic-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
