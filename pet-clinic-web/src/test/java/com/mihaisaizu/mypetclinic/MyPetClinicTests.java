@@ -1,4 +1,4 @@
-package mypetclinic;
+package com.mihaisaizu.mypetclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,7 +10,5 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class MyPetClinicTests {
 
     @Test
-    public void contextLoads(){
-
-    }
+    public void contextLoads(){}
 }
