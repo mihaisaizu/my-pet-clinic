@@ -5,7 +5,25 @@
     <title>Pet Clinic - Vets Page</title>
 </head>
 <body>
-    <h1 th:text="'Vets Page'">Vets Page</h1>
+<!--/*@thymesVar id="vet" type="com.mihaisaizu.mypetclinic.model.Vet"*/-->
+<h1 th:text="'Vets Page'">Vets Page</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="vet : ${vets}">
+        <td th:text="${vet.id}">1</td>
+        <td th:text="${vet.firstName}">Garry</td>
+        <td th:text="${vet.lastName}">Doe</td>
+    </tr>
+    </tbody>
+</table>
 
 </body>
 </html>
