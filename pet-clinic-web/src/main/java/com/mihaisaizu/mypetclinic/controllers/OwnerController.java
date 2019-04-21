@@ -14,8 +14,8 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.validation.Valid;
 import java.util.List;
 
-@RequestMapping({"/owners", "/owners.html"})
 @Controller
+@RequestMapping({"/owners", "/owners.html"})
 public class OwnerController {
 
     private final OwnerService ownerService;
@@ -24,6 +24,8 @@ public class OwnerController {
     public OwnerController(OwnerService ownerService) {
         this.ownerService = ownerService;
     }
+
+
 
     @RequestMapping("/find")
     public String findOwners(Model model){
