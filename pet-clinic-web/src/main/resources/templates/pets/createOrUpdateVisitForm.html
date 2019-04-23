@@ -2,7 +2,7 @@
       th:replace="~{fragments/layout :: layout (~{::body},'owners')}">
 
 <body>
-<!--/*@thymesVar id="types" type="com.mihaisaizu.mypetclinic.model.*"*/-->
+
 <h2>
     <th:block th:if="${visit['new']}">New </th:block>
     Visit
@@ -19,7 +19,6 @@
     </tr>
     </thead>
     <tr>
-        <!--/*@thymesVar id="types" type="com.mihaisaizu.mypetclinic.model.Visit"*/-->
         <td th:text="${pet.name}" /></td>
         <td
                 th:text="${#temporals.format(pet.birthDate, 'yyyy-MM-dd')}" /></td>
