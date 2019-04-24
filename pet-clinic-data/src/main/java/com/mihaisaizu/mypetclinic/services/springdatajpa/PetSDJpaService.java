@@ -28,21 +28,21 @@ public class PetSDJpaService implements PetService {
 
     @Override
     public Pet findById(Long aLong) {
-        return null;
+        return petRepository.findById(aLong).orElse(null);
     }
 
     @Override
     public Pet save(Pet object) {
-        return null;
+        return petRepository.save(object);
     }
 
     @Override
     public void delete(Pet object) {
-
+        petRepository.delete(object);
     }
 
     @Override
     public void deleteById(Long aLong) {
-
+        petRepository.deleteById(aLong);
     }
 }
