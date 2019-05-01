@@ -20,7 +20,7 @@
         <td th:text="${vet.firstName + ' ' + vet.lastName}"></td>
         <td>
             <span th:each="speciality : ${vet.specialities}"
-                  th:text="${speciality.description + ' '}"/> <span
+                  th:text="${speciality.description + ', '}"/> <span
                 th:if="${vet?.specialities?.size() == 0}">none</span>
         </td>
     </tr>
